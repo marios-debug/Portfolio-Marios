@@ -1,1 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Portfolio — Semester 1</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">YOUR NAME</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="cv.html">CV</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="courses-s1.html">Courses (S1)</a>
+        <a href="projects.html">Projects</a>
+        <a href="python.html">Python</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero">
+      <span class="badge">BTS Cloud Computing — Semester 1</span>
+      <h1>Hi, I’m YOUR NAME.</h1>
+      <p>
+        This portfolio contains my Semester 1 evidence: certifications, coursework deliverables,
+        technical documentation, projects, and Python learning.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Teacher checklist</h3>
+        <p>Everything required for the Semester 1 portfolio is grouped in clear sections.</p>
+        <a class="btn" href="courses-s1.html">Open Semester 1 evidence →</a>
+      </div>
+
+      <div class="card">
+        <h3>Certifications</h3>
+        <p>MOS (Word/Word Expert/PowerPoint), Pluralsight AZ-900 prep, and final AZ-900 proof.</p>
+        <a class="btn" href="certifications.html">View certifications →</a>
+      </div>
+
+      <div class="card">
+        <h3>Projects</h3>
+        <p>Each project has a short card + a detailed description page (with screenshots).</p>
+        <a class="btn" href="projects.html">View projects →</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <span id="y"></span> YOUR NAME — Semester 1 Portfolio
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
